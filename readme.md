@@ -26,28 +26,30 @@ It is **not**:
 | License     | Apache / Proprietary   | Apache   | BSD   |
 | Current version     | [6.0.2.GA](http://docs.appcelerator.com/platform/latest/#!/guide/Titanium_SDK_6.0.2.GA_Release_Note)   | [2.5](https://www.nativescript.org/blog/nativescript-25-is-now-available)   | [0.42](https://github.com/facebook/react-native/releases/tag/v0.42.0)   |
 | Release date     | 02/22/2017   | 01/02/2017   | 01/03/2017   |
-| Code repo     | <a href="https://github.com/appcelerator/titanium_mobile/" target="_blank">titanium-mobile</a>   | <a href="https://github.com/NativeScript/NativeScript" target="_blank">NativeScript</a>   | <a href="https://github.com/facebook/react-native" target="_blank">react</a>   |
+| Update Schedule     | &#x2753;   | Roadmap   | Monthly   |
+| Code repo     | <a href="https://github.com/appcelerator/titanium_mobile/" target="_blank">titanium-mobile</a>   | <a href="https://github.com/NativeScript/NativeScript" target="_blank">NativeScript</a>   | <a href="https://github.com/facebook/react-native" target="_blank">react-native</a>   |
 | iOS apps       | &#x2705; | &#x2705;   | &#x2705;   |
-| Android apps   | &#x2705; | &#x2705;   | &#x274e; <sup>1</sup>   |
-| Windows apps   | &#x2705; | &#x274c; <sup>2</sup>  | &#x274c;   |
+| Android apps   | &#x2705; | &#x2705;   | &#x2705;   |
+| Windows apps   | &#x2705; | &#x274c; <sup>2</sup>  | &#x274e;   |
+| OS X apps   | &#x274c; | &#x274c;  | &#x2757;   |
 | Apple Watch apps   |  &#x274e; | &#x2705;  | &#x2753;   |
-| tvOS apps   | &#x274c; | &#x2705;  | &#x26d4; |
-| Unified x-platform UI <sup>3</sup> | &#x274e; | &#x274c; | &#x274c; |
+| tvOS apps   | &#x274c; | &#x2705;  | &#x2705; |
+| Unified x-platform UI <sup>3</sup> | &#x274e; | &#x274c; | &#x26d4; |
 | Direct access<br/>to native APIs | Via modules <sup>4</sup> | &#x2705; |Via modules |
 | Module-based<br/>extensibility | &#x2705; | &#x2705; | &#x2705; |
-| Reusable UI<br/>components | Alloy Widgets | Plugins | &#x2753; |
-| Styling | TSS (proprietary<br/>CSS-like) | CSS subset | Flexbox |
+| Reusable UI<br/>components | Alloy Widgets | Plugins | Classes |
+| Styling | TSS (proprietary<br/>CSS-like) | CSS subset | Flexbox/JSX |
 | Debugging | Via Studio IDE | Chrome debug tools | Chrome debug tools |
 | Hot reload  | &#x274e;<sup>5</sup> | &#x2705; |&#x2705; |
 | Code encryption | &#x274e; | &#x274c; | &#x274c; |
 | Compile-time license<br/>checks | &#x2757; | &#x274c; | &#x274c; |
 | Run-time license<br/>checks | &#x2757; | &#x274c; | &#x274c; |
-| Testing / crash<br/>reporting | Subscribers | Subscribers | Parse |
-| Analytics | Subscribers | Paid add-on | Parse |
-| IDE | Appcelerator Studio <sup>6</sup> | &#x26d4; <sup>7</sup> | &#x274c; <sup>8</sup> |
+| Testing / crash<br/>reporting | Subscribers | Subscribers | 3rd Party |
+| Analytics | Subscribers | Paid add-on | 3rd Party |
+| IDE | Appcelerator Studio <sup>6</sup> | &#x26d4; <sup>7</sup> | &#x26d4; <sup>8</sup> |
 | Framework | Alloy (MVC-like)| &#x2753; | &#x2753; <sup>9</sup> |
 | Biz model   | Enterprise, MBaaS,<br/>Paid subscriptions | Enterprise, MBaaS,<br/>Paid add-ons | &#x2753; |
-| MBaaS companion | Arrow Cloud | DevCloud | Parse |
+| MBaaS companion | Arrow Cloud | DevCloud | &#x274c; |
 | Subscriptions/cost | OSS: Free <sup>10</sup><br/>Indie: $39/mo<br/>Team: $259/seat/mo<br/>Enterprise: call | OSS: Free<br/>Seat: $39/mo<br/>Add-ons: vary<br/>Enterprise: call | Free |
 
 An interesting project to watch is [react-titanium](https://github.com/yuchi/react-titanium) which is a custom React renderer for Titanium. In theory, this would give you a mix of benefits of those two tools.
@@ -74,7 +76,7 @@ An interesting project to watch is [react-titanium](https://github.com/yuchi/rea
 | Issues/Tickets     | <a href="https://jira.appcelerator.org/" target="_blank">Jira</a>  | <a href="https://github.com/NativeScript/NativeScript/issues" target="_blank">GitHub</a>   |  <a href="https://github.com/facebook/react-native/issues" target="_blank">GitHub</a>  |
 | Enterprise     | Varies:<br/>Jira, SLA, phone  | Varies: contact-us   |  n/a  |
 | Subscriber     | Jira, self-serve forums  | Google group, partners   |   n/a |
-| OSS/Community     | <a href="http://tislack.org/" target="_blank">Titanium Slack Community</a>   | <a href="https://groups.google.com/forum/#!forum/nativescript" target="_blank">Google group</a>  |  n/a  |
+| OSS/Community     | <a href="http://tislack.org/" target="_blank">Titanium Slack Community</a>   | <a href="https://groups.google.com/forum/#!forum/nativescript" target="_blank">Google group</a>  |  <a href="http://join.reactiflux.com/" target="_blank">Reactiflux</a> / <a href="https://discuss.reactjs.org/" target="_blank">Forums</a>  |
 
 ## Discrepencies? Missing Info?
 
